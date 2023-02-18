@@ -1,0 +1,35 @@
+.ball{
+    border-radius: 50%;
+    height: 3em;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 3em;
+    align-items: center;   
+}
+.rolling{
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+ 
+}
+@media (prefers-reduced-motion: no-preference) {
+    .rolling{
+      animation: App-logo-spin infinite .8s linear;
+    }
+  }
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
